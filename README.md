@@ -1,4 +1,4 @@
-# Prototipos de recursos educativos abiertos
+# :chart_with_upwards_trend: Prototipos de recursos educativos abiertos
 ## MRU
 ### posición vs tiempo
 :link: [enlace](https://glacy.github.io/MRU/)
