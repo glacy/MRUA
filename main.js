@@ -32,7 +32,7 @@ pointStyle: 'rect',
 const datav = {
   labels: timeArray,
   datasets: [{
-  label: `\\(v(t) = (${initialVelocity}  +\\displaystyle (${acceleration}\\,\\mbox{m/s}^2) \\cdot t \\)`,
+  label: `\\(v(t) = (${initialVelocity} \\,\\mbox{m/s}) +\\displaystyle (${acceleration}\\,\\mbox{m/s}^2) \\cdot t \\)`,
   borderColor: 'rgb(255, 204, 188)',
   data: velocityArray,
   fill: false,
