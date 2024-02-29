@@ -1,0 +1,94 @@
+<!-- #ffccbc,#ff6e40,#d4fbff,#6cc9f8,#0089ef,#3a2c60) -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gráfica MRUA</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="\node_modules\chartjs-plugin-annotation\dist\chartjs-plugin-annotation.min.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #6cc9f8;">
+<div class="container">
+<a class="navbar-brand" href="#">
+<img src="https://tecdigital.tec.ac.cr/repositorio/tecdigital/TD/img/tec-logo.png" alt="tecDigital-logo" width="150">
+</a>
+
+</div>
+</nav>
+
+<div class="container">
+<div class="row">
+<div class="col-md-2 col-sm-2 col-lg-2" style="text-align: center; padding: 20px;"><img src="https://tecdigital.tec.ac.cr/repositorio/tecdigital/ESC_FISICA/img/consigna_orientacion.png" width="75"alt="instrucciones"></div>
+<div class="col-md-10 col-sm-10 col-lg-10">
+<p>
+Para visualizar la gráfica de posición vs tiempo en un movimiento rectilineo uniformemente acelerado (MRUA), ingrese los valores de
+</p>
+
+<div class="input-group mb-3">
+<span class="input-group-text" >posición inicial:</span>
+<input id="initialPosition" type="number" value="1" class="form-control" placeholder="Ingrese aquí la posición inicial" aria-label="initialPosition" aria-describedby="initialPosition">
+<span class="input-group-text">m</span>
+</div>
+<div class="input-group mb-3">
+<span class="input-group-text" >velocidad inicial:</span>
+<input id="initialVelocity" type="number" value="1" class="form-control" placeholder="Ingrese aquí la velocidad inicial" aria-label="initialVelocity" aria-describedby="initialVelocity">
+<span class="input-group-text">m/s</span>
+</div>
+<div class="input-group mb-3">
+<span class="input-group-text" >aceleración:</span>
+<input id="acceleration" type="number" value="-9.8" class="form-control" placeholder="Ingrese aquí la aceleración" aria-label="acceleration" aria-describedby="acceleration">
+<span class="input-group-text">m/s<sup>2</sup></span>
+</div>
+<div class="input-group mb-3">
+<span class="input-group-text" >tiempo máximo:</span>
+<input id="tmax" type="number" value="20" class="form-control" placeholder="Ingrese el valor máximo para la serie de tiempo" aria-label="tmax" aria-describedby="tmax">
+<span class="input-group-text">s</span>
+</div>
+
+<p>
+y luego de click sobre <button onclick="generarGrafico()" onkeydown="generarGrafico()" class="btn" tabindex="0"; style="border-style: solid solid solid solid; border-image: linear-gradient(45deg,#ffccbc,#ff6e40,#d4fbff,#6cc9f8,#0089ef,#3a2c60) 1; font-size: 12pt;"> <span style="font-family:Lucida Console;">generar gráfico</span></button>
+</p>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div id="chart-container">
+<section>
+<div id="legend-container">
+</div>
+</section>
+<canvas id="chartCanvas" style="display: block; box-sizing: border-box;"></canvas>
+</div>
+</div>
+
+
+
+<footer class="site-footer">
+<div class="container text-center">
+<div class="row align-items-center">
+<div class="col col-sm-12 col-lg-6 col-md-6">
+<p><a title="escribir a glacy@itcr.ac.cr" href="mailto: glacy@itcr.ac.cr" target="_blank" rel="noopener"><span style="color: #D4FBFF ;"><span class="material-icons">mail</span>glacy@itcr.ac.cr</span></a></p>
+</div>
+<div class="col col-sm-12 col-lg-6 col-md-6">
+<p><a title="ir al repositorio" href="https://github.com/glacy/FI1101-FG1/" target="_blank" rel="noopener"><span style="color: #D4FBFF ;"><span class="material-icons">code</span>Código fuente</span></a></p>
+</div>
+<!-- <p><span style="color: #D4FBFF ;"><span class="material-icons">update</span>Última actualización: 03.01.2024.</span></a></p> -->
+</div>
+</div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
+

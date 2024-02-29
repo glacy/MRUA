@@ -1,0 +1,45 @@
+/*
+ * Custom CSS
+ */
+:root {
+	--bs-body-bg: var(--bs-gray-100);
+	}
+
+canvas {
+	max-width: 100%;
+	margin: 20px;
+	/* /* border: 1px solid #000; */ */
+	}
+.container {
+	padding: 20px;
+	/* border: 1px solid #000; */
+	}
+
+.site-footer {
+	background: #6cc9f8;
+	padding: 20px;
+	font-size: 10pt;
+	}
+
+.row .col{
+	/* border: 1px solid #000; */
+	}
+#chart-container {
+	padding-top: 30px;
+	width:100%;
+	}
+
+button {
+	border-style: solid solid solid solid; 
+	border-image: linear-gradient(45deg,#ffccbc,#ff6e40,#d4fbff,#6cc9f8,#0089ef,#3a2c60) 1; 
+	font-size: 12pt;"
+	}
+
+section {
+	display: flex;
+	justify-content: center;
+	}
+
+a {
+	text-decoration: none;
+	}
