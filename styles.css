@@ -9,6 +9,7 @@ canvas {
 	max-width: 100%;
 	margin: 20px;
 	}
+
 .container {
 	padding: 20px;
 	/* border: 1px solid #000; */
@@ -23,12 +24,13 @@ canvas {
 .material-icons{
 	transform: translateY(11.5%);		
 	}
+
 #chart-container {
 	padding-top: 30px;
 	width:100%;
 	}
 
-button {
+.btn {
 	border-style: solid solid solid solid; 
 	border-image: linear-gradient(45deg,#ffccbc,#ff6e40,#d4fbff,#6cc9f8,#0089ef,#3a2c60) 1; 
 	font-size: 12pt;
