@@ -8,7 +8,6 @@
 canvas {
 	max-width: 100%;
 	margin: 20px;
-	/* /* border: 1px solid #000; */ */
 	}
 .container {
 	padding: 20px;
@@ -21,8 +20,8 @@ canvas {
 	font-size: 10pt;
 	}
 
-.row .col{
-	/* border: 1px solid #000; */
+.material-icons{
+	transform: translateY(11.5%);		
 	}
 #chart-container {
 	padding-top: 30px;
@@ -32,7 +31,7 @@ canvas {
 button {
 	border-style: solid solid solid solid; 
 	border-image: linear-gradient(45deg,#ffccbc,#ff6e40,#d4fbff,#6cc9f8,#0089ef,#3a2c60) 1; 
-	font-size: 12pt;"
+	font-size: 12pt;
 	}
 
 section {
@@ -42,4 +41,5 @@ section {
 
 a {
 	text-decoration: none;
+	color:#3a2c60;
 	}
