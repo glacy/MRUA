@@ -1,4 +1,4 @@
-# :chart_with_upwards_trend: Prototipos de recursos educativos abiertos
+# Prototipos de recursos educativos abiertos
 ## MRU
 ### posición vs tiempo
 :link: [enlace](https://glacy.github.io/MRU/)
@@ -15,3 +15,9 @@ Gráficas y ecuaciones de la posición en función del tiempo y de la velocidad 
 - :point_right: posición inicial
 - :runner: velocidad constante
 - :fast_forward: aceleración
+
+## Centro de masa
+### Molécula de amonio
+:link: [enlace](https://glacy.github.io/cm/)
+Visualización interactiva de la representación gráfica de una molécula de amonio:
+- :video_game: Asymptote
